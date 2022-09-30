@@ -77,7 +77,7 @@ print("""Fråga 7: Vad är korrekta syntaxen för att få output 'Hello World!' 
 1. echo("Hello World!")
 2. print("Hello World!")
 3. console("Hello World!")\nSvar: """, end='')
-answer_check(input().lower(), "2", "en string")
+answer_check(input().lower(), "2", "print("Hello World!")")
 
 print("----------------------------------------------------------------------\n")
 
