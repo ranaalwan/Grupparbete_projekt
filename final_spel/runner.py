@@ -1,4 +1,3 @@
-from turtle import back
 import pygame
 from sys import exit
 from random import randint, choice
@@ -80,7 +79,7 @@ class Obstacle(pygame.sprite.Sprite):
 class CollectPoints(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        self.image = pygame.image.load('the_coin.png').convert_alpha()
+        self.image = pygame.image.load('graphics/the_coin.png').convert_alpha()
         self.image = pygame.transform.scale(self.image, (50, 50))
         self.rect = self.image.get_rect(midbottom = (randint(400, 800), 150))
     
