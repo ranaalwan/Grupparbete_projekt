@@ -120,8 +120,8 @@ score = 0
 # background_sound = pygame.mixer.Sound('audio/music.wav')
 # background_sound.set_volume(0.1)
 # background_sound.play(loops = -1)
-sky_surface = pygame.image.load('graphics/Sky.png').convert()
-ground_surface = pygame.image.load('graphics/ground.png').convert()
+sky_surface = pygame.image.load('graphics/1.png').convert()
+ground_surface = pygame.image.load('graphics/11.png').convert()
 
 
 player = pygame.sprite.GroupSingle()
